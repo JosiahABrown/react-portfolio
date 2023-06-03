@@ -1,7 +1,7 @@
 function App() {
 
   return (
-   <div>
+   <div className="min-h-screen bg-white">
       <h1>Hello</h1>
    </div> 
   )
