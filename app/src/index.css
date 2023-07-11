@@ -5,22 +5,26 @@
 @font-face {
     font-family: "MAJOR-MONO";
     src: url("../fonts/MajorMonoDisplay-Regular.ttf");
+
+    font-family: "Anton-Regular";
+    src: url("../fonts/Anton-Regular.ttf")
 }
 
 @layer utilities {
-        .text-shadow {
-          text-shadow: 2px 2px 4px black;
-        }
-        .text-shadow-md-black {
-          text-shadow: 2px 2px 0px #1f2937;
-        }
-        .text-shadow-md-red {
-          text-shadow: 2px 2px 0px #b91c1c;
-        }
-        .text-shadow-lg {
-          text-shadow: 15px 15px 30px black;
-        }
-        .text-shadow-none {
-          text-shadow: none;
-        }
+  .text-shadow {
+    text-shadow: 2px 2px 4px black;
+  }
+  .text-shadow-md-black {
+    text-shadow: 2px 2px 0px #1f2937;
+  }
+  .text-shadow-md-red {
+    text-shadow: 2px 2px 0px #b91c1c;
+  }
+  .text-shadow-lg {
+    text-shadow: 15px 15px 30px black;
+  }
+  .text-shadow-none {
+      text-shadow: none;
+  }
+
 }

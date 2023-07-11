@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        major: ["MAJOR-MONO"] 
+        major: ["MAJOR-MONO"], 
+        anton: ["Anton-Regular"]
       },
     },
   },
