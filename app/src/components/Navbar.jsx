@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Navbar() {
     return (
-        <nav className="fixed flex justify-center p-4 md:px-8 w-screen h-20">
+        <nav className="fixed flex justify-center top-0 p-4 md:px-8 w-screen h-20">
             <div className="flex-1"></div>
             <img className="flex-1 object-cover h-20" src="../img/josiah-brown-navbar-logo.png" alt="" />
             <div className="flex-1"></div>
